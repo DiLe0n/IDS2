@@ -1,0 +1,13 @@
+[
+  {
+    "type": "SQL_INJECTION",
+    "ip": "::1",
+    "path": "/login",
+    "method": "POST",
+    "payload": {
+      "username": "admin",
+      "password": "1234; DROP TABLE users;"
+    },
+    "timestamp": "2025-05-22T13:17:11.856Z"
+  }
+]
